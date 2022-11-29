@@ -1,0 +1,29 @@
+Horizontal bar used for drop down on main page: Home, Coupe, Hatchback, Sedan, SUV, Truck, Motorcycle, RV, Boat
+
+
+Hover dropdown: New, Used (for all except home) 
+
+
+
+
+Coupe:
+
+
+
+
+Hatchback:
+
+
+
+
+Sedan:
+
+
+
+
+SUV: 
+
+
+
+
+Truck: Chevrolet Silverado 1500, Ford F-150, GMC Sierra Pro, RAM 1500
