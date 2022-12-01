@@ -1,0 +1,37 @@
+* {
+  border: 1px dotted red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+}
+#main {
+  display: flex;
+  height: 100%;
+  flex: 5;
+}
+footer {
+  display: flex;
+  flex: 3;
+  flex-grow: 1;
+}
+
+#page-content {
+  display: flex;
+  flex-direction: column;
+}
+#top {
+  flex: 2;
+}
+#bottom {
+  flex: 3;
+}
+#logo {
+  width: 4em;
+  height: 4em;
+}

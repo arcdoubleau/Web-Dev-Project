@@ -1,0 +1,16 @@
+#menu-bar {
+  display: flex;
+  justify-content: center;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+}
+.drop-down:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+}
