@@ -1,4 +1,5 @@
 #menu-bar {
+  /* Alexander Ratelle */
   display: flex;
   justify-content: center;
   text-align: center;
@@ -9,6 +10,7 @@
   border-bottom: darkgray 2px solid;
 }
 #homebtn {
+  /* Alexander Ratelle */
   width: 6em;
   height: 2em;
 }
@@ -27,10 +29,12 @@
 }
 
 .dropbtn {
+  /* Alexander Ratelle */
   height: 2em;
   width: 10em;
 }
 #homebtn,
 .dropbtn {
+  /* Alexander Ratelle */
   margin: 4px;
 }

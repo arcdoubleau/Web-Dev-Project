@@ -11,6 +11,27 @@ header {
   height: 20%;
   align-items: center;
 }
+#logo {
+  /* Alexander Ratelle */
+  width: 6em;
+  height: 4.5em;
+  margin-left: 10em;
+}
+#logo,
+#upload-button {
+  /* Alexander Ratelle */
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#upload-button {
+  /* Alexander Ratelle */
+  margin-right: 10em;
+  width: 17em;
+  height: 4.5em;
+  margin-bottom: 1em;
+  color: white;
+  background: #d54545;
+}
 #main {
   display: flex;
   height: 100%;
@@ -26,19 +47,9 @@ header {
 #bottom {
   flex: 3;
 }
-#logo {
-  width: 6em;
-  height: 4.5em;
-  margin-left: 10em;
-}
-#logo,
-#upload-button {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-#upload-button {
-  margin-right: 10em;
-  width: 17em;
-  height: 4.5em;
-  margin-bottom: 1em;
+footer {
+  /* Alexander Ratelle */
+  border-top: darkgray 2px solid;
+  padding-top: 1em;
+  padding-left: 1em;
 }
