@@ -6,8 +6,7 @@
   flex-wrap: nowrap;
   align-items: center;
   padding: 2px;
-  border-top: darkgray 2px solid;
-  border-bottom: darkgray 2px solid;
+  border-bottom: rgb(231, 231, 231) 2px solid;
 }
 #homebtn {
   /* Alexander Ratelle */
@@ -37,4 +36,11 @@
 .dropbtn {
   /* Alexander Ratelle */
   margin: 4px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 20
 }
