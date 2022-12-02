@@ -32,6 +32,10 @@ header {
   color: white;
   background: #d54545;
 }
+#upload-button:hover {
+  /* Alexander Ratelle */
+  background: #ce3939;
+}
 #main {
   display: flex;
   height: 100%;
