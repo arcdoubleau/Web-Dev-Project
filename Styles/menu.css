@@ -1,16 +1,36 @@
 #menu-bar {
   display: flex;
   justify-content: center;
+  text-align: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 2px;
+  border-top: darkgray 2px solid;
+  border-bottom: darkgray 2px solid;
+}
+#homebtn {
+  width: 6em;
+  height: 2em;
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;
+  width: 10em;
 }
 .drop-down:hover .dropdown-content {
   display: block;
 }
 .dropdown-content a {
   display: block;
+}
+
+.dropbtn {
+  height: 2em;
+  width: 10em;
+}
+#homebtn,
+.dropbtn {
+  margin: 4px;
 }
