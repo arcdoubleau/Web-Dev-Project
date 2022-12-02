@@ -32,10 +32,14 @@ header {
   margin-bottom: 1em;
   color: white;
   background: #d54545;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20;
 }
 #upload-button:hover {
   /* Alexander Ratelle */
   background: #ce3939;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16;
 }
 #main {
   display: flex;
