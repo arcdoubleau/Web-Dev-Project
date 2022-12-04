@@ -67,9 +67,12 @@ header {
 }
 footer {
     /* Alexander Ratelle */
+    display: flex;
+    justify-content: space-between;
     border-top: rgb(231, 231, 231) 2px solid;
     padding-top: 2em;
     padding-left: 2em;
+    padding-right: 2em;
     height: 100%;
     width: 100%;
     padding-bottom: 4em;
