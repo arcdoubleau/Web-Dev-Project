@@ -1,40 +1,66 @@
 #menu-bar {
-  /* Alexander Ratelle */
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-wrap: nowrap;
-  align-items: center;
-  padding: 2px;
-  border-top: darkgray 2px solid;
-  border-bottom: darkgray 2px solid;
+    /* Alexander Ratelle */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 2px;
+    border-top: darkgray 2px solid;
+    border-bottom: darkgray 2px solid;
 }
 #homebtn {
-  /* Alexander Ratelle */
-  width: 6em;
-  height: 2em;
+    /* Alexander Ratelle */
+    width: 6em;
+    height: 2em;
 }
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  width: 10em;
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
+.dropbtn:hover,
+#homebtn:hover {
+    /* Alexander Ratelle */
+    background-color: #d5d3d3;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(234, 234, 234);
+}
+
 .drop-down:hover .dropdown-content {
-  display: block;
+    display: block;
 }
+.drop-down:hover .dropbtn {
+    /* Alexander Ratelle */
+    background-color: #d5d3d3;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2); /* Alexander Ratelle */
+    text-decoration: none; /* Alexander Ratelle */
+}
+
 .dropdown-content a {
-  display: block;
+    /* Alexander Ratelle */
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: black;
 }
 
 .dropbtn {
-  /* Alexander Ratelle */
-  height: 2em;
-  width: 10em;
+    /* Alexander Ratelle */
+    height: 2em;
+    width: 10em;
 }
 #homebtn,
 .dropbtn {
-  /* Alexander Ratelle */
-  margin: 4px;
+    /* Alexander Ratelle */
+    margin: 4px;
+    background-color: #e1e1e1;
 }
