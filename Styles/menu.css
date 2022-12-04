@@ -50,6 +50,8 @@
     text-decoration: none;
     padding: 5px;
     color: black;
+    font-size: smaller;
+    border-bottom: 1px #e1e1e1 solid;
 }
 
 .dropbtn {
@@ -62,7 +64,4 @@
     /* Alexander Ratelle */
     margin: 4px;
     background-color: #e1e1e1;
-}
-.material-symbols-outlined {
-    font-variation-settings: "FILL" 1, "wght" 700, "GRAD" 200, "opsz" 20;
 }

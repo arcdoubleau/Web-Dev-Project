@@ -55,10 +55,13 @@ header {
     margin-left: 4em;
     margin-right: 4em;
     flex-direction: column;
+    position: relative;
 }
+
 #top {
     flex: 2;
 }
+
 #bottom {
     flex: 3;
 }
