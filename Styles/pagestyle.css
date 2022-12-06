@@ -5,6 +5,21 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: blue;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
 
 header {
     display: flex;
@@ -12,6 +27,7 @@ header {
     height: 20%;
     align-items: center;
     border-bottom: rgb(231, 231, 231) 2px solid;
+    flex: 2;
 }
 #logo {
     /* Alexander Ratelle */
@@ -44,7 +60,7 @@ header {
 #main {
     display: flex;
     height: 100%;
-    flex: 5;
+    flex: 6;
 }
 #page-content {
     display: flex;
@@ -76,4 +92,5 @@ footer {
     height: 100%;
     width: 100%;
     padding-bottom: 4em;
+    flex: 2;
 }
