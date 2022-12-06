@@ -2,6 +2,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10em;
+    margin-top: 3em;
     margin-bottom: 10em;
 }
+
+
+
+
+/*input[type=text] {
+        background-color: lightgray;
+        color: black;
+}*/
+
+input[type=text] { /*Michael Arcaro*/ 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  b { /* Michael Arcaro*/
+    text-align: center;
+    font-size: large;
+    padding-left: 28em;
+  }
