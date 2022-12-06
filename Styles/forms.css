@@ -1,0 +1,7 @@
+#form{ /* Alexander Ratelle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    margin-bottom: 10em;
+}
