@@ -5,15 +5,16 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-a {
+a {           /* Alexander Ratelle */
     text-decoration: none;
-    color: blue;
+    color: white;
+
 }
-a:hover {
+a:hover {           /* Alexander Ratelle */
     text-decoration: underline;
 }
-a:active {
-    color: blue;
+a:active {           /* Alexander Ratelle */
+    color: white;
 }
 
 #wrapper {
@@ -31,16 +32,16 @@ header {
 }
 #logo {
     /* Alexander Ratelle */
-    width: 6.5em;
+    width: 6em;
     height: 4.5em;
-    margin-left: 4em;
+    margin-left: 3em;
 }
 #logo,
 #upload-button {
     /* Alexander Ratelle */
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-right: 4em;
+    margin-right: 3em;
 }
 #upload-button {
     /* Alexander Ratelle */
@@ -57,7 +58,7 @@ header {
     background: #ce3939;
     font-size: 16;
 }
-#main {
+#main {           /* Alexander Ratelle */
     display: flex;
     height: 100%;
     flex: 6;
@@ -74,11 +75,11 @@ header {
     position: relative;
 }
 
-#top {
+#top {           /* Alexander Ratelle */
     flex: 2;
 }
 
-#bottom {
+#bottom {           /* Alexander Ratelle */
     flex: 3;
 }
 footer {
@@ -87,10 +88,32 @@ footer {
     justify-content: space-between;
     border-top: rgb(231, 231, 231) 2px solid;
     padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
     height: 100%;
     width: 100%;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     flex: 2;
+    font-weight: 550;
+    background: rgb(120, 125, 131);
+    color: white;
+
+} 
+#copyright{           /* Alexander Ratelle */
+    flex:3;
+}
+#contact{           /* Alexander Ratelle */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#questions{           /* Alexander Ratelle */
+    flex: 1;
+    text-align: right;
+    padding-bottom: 20px;
+}
+#social{           /* Alexander Ratelle */
+    text-align: right;
+    flex: 3;
 }

@@ -4,7 +4,6 @@
     <head>
         <!-- Alexander Ratelle -->
         <meta charset="utf-8" />
-        <title>Vehicle Sales</title>
         <link rel="stylesheet" href="styles/menu.css" />
         <link rel="stylesheet" href="styles/pagestyle.css" />
         <link rel="stylesheet" href="styles/media.css" />
@@ -17,6 +16,7 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
+        <title>Vehicle Sales</title>
         <meta name="description" content="Post and sell your car fast!" />
         <meta
             name="keywords"
@@ -28,7 +28,9 @@
         <section id="wrapper">
             <header>
                 <!-- Alexander Ratelle -->
-                <img id="logo" src="images/logo.png" alt=" " />
+                <a href="../home.html">
+                    <img id="logo" src="../images/logo.png" alt=" " />
+                </a>
                 <button
                     id="upload-button"
                     onclick="window.location.href='forms/form.html';"
@@ -49,18 +51,18 @@
                     <section class="drop-down">
                         <button class="dropbtn">Cars</button>
                         <div class="dropdown-content">
-                            <a href="categories/category1.html#1">Sedan</a>
-                            <a href="categories/category1.html#2">Coupe</a>
-                            <a href="categories/category1.html#3">SUV</a>
+                            <a href="categories/Cars.html#sedan">Sedan</a>
+                            <a href="categories/Cars.html#coupe">Coupe</a>
+                            <a href="categories/Cars.html#suv">SUV</a>
                         </div>
                     </section>
-                    <section class="clickable-button">
-                        <button
-                            class="dropbtn"
-                            onclick="window.location.href = 'home.html';"
-                        >
-                            Trucks
-                        </button>
+                    <section class="drop-down">
+                        <button class="dropbtn">Trucks</button>
+                        <div class="dropdown-content">
+                            <a href="categories/Cars.html#1">Sedan</a>
+                            <a href="categories/Cars.html#2">Coupe</a>
+                            <a href="categories/Cars.html#3">SUV</a>
+                        </div>
                     </section>
                     <section class="clickable-button">
                         <button
@@ -99,6 +101,7 @@
                 <section id="copyright">
                     <p>
                         &copy; 2022 Copyright. All rights given away. <br />
+                        <br />
                         Tested from my sonic account, click on this
                         <a href="https://sonic.dawsoncollege.qc.ca/x">link </a>
                     </p>
@@ -109,11 +112,10 @@
                         <a href="forms/contact.html"> Contact us </a>
                     </section>
                     <section id="social">
-                        Check us out on: <br />
+                        Check us out on: <i class="fa fa-instagram"></i>
+                        <a href="https://www.instagram.com">Instagram</a><br />
                         <i class="fa fa-facebook-official"></i>
-                        <a href="https://www.facebook.com">Facebook</a><br />
-                        <i class="fa fa-instagram"></i>
-                        <a href="https://www.instagram.com">Instagram</a>
+                        <a href="https://www.facebook.com">Facebook</a>
                     </section>
                 </section>
             </footer>
