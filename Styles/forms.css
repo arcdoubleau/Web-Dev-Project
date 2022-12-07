@@ -1,11 +1,33 @@
-#form{ /* Alexander Ratelle */
+#wrapper {
+  display: flex;
+}
+#main{ /* Alexander Ratelle */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3em;
     margin-bottom: 10em;
+    flex:6;
+    flex-direction:column;
+}
+#title{
+  flex: 1;
+}
+#form{
+  padding-top: 4em;
+  padding-left: 50em;
+  padding-right: 50em;
+  padding-bottom: 9em;
+
+  flex: 6
 }
 
+header{
+  flex: 2;
+}
+footer{
+  flex: 2;
+}
 
 
 
@@ -21,8 +43,8 @@ input[type=text] { /*Michael Arcaro*/
     box-sizing: border-box;
   }
 
-  b { /* Michael Arcaro*/
+  #title { /* Michael Arcaro*/
+    padding-top: 4em;
     text-align: center;
     font-size: large;
-    padding-left: 28em;
   }

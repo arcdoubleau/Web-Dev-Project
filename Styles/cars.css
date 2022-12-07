@@ -1,0 +1,27 @@
+#cars{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#coupe{
+    flex: 1;
+    padding-left: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#sedan{
+    flex: 1;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+#suv{
+    flex:1;
+    padding-left: 2em;
+    padding-top: 2em;
+    
+}

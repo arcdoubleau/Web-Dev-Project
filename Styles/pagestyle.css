@@ -7,13 +7,14 @@
 }
 a {
     text-decoration: none;
-    color: blue;
+    color: white;
+
 }
 a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: blue;
+    color: white;
 }
 
 #wrapper {
@@ -91,10 +92,11 @@ footer {
     padding-right: 1.5em;
     height: 100%;
     width: 100%;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
     flex: 2;
     font-weight: 550;
-    background: #fff6eb;
+    background: rgb(120, 125, 131);
+    color: white;
 
 }
 #copyright{

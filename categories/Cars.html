@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../styles/pagestyle.css" />
         <link rel="stylesheet" href="../styles/menu.css" />
+        <link rel="stylesheet" href="../Styles/cars.css" />
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
         <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -14,94 +15,99 @@
         <title>Cars</title>
     </head>
     <body>
-        <header>
-            <!-- Alexander Ratelle -->
-            <img id="logo" src="../images/logo.png" alt=" " />
-            <button
-                id="upload-button"
-                onclick="window.location.href='forms/form.html';"
-            >
-                <b>POST AD</b>
-            </button>
-        </header>
-        <section class="main">
-            <section id="menu-bar">
+        <section id="wrapper">
+            <header>
                 <!-- Alexander Ratelle -->
+                <a href="../home.html">
+                    <img id="logo" src="../images/logo.png" alt=" " />
+                </a>
                 <button
-                    id="homebtn"
-                    onclick="window.location.href = 'home.html';"
+                    id="upload-button"
+                    onclick="window.location.href='../forms/form.html';"
                 >
-                    <i class="material-icons">home</i>
+                    <b>POST AD</b>
                 </button>
-                <section class="drop-down">
-                    <button class="dropbtn">Cars</button>
-                    <div class="dropdown-content">
-                        <a href="categories/Cars.html#1">Sedan</a>
-                        <a href="categories/Cars.html#2">Coupe</a>
-                        <a href="categories/Cars.html#3">SUV</a>
-                    </div>
-                </section>
+            </header>
+            <section class="main">
+                <section id="menu-bar">
+                    <!-- Alexander Ratelle -->
+                    <button
+                        id="homebtn"
+                        onclick="window.location.href = '../home.html';"
+                    >
+                        <i class="material-icons">home</i>
+                    </button>
+                    <section class="drop-down">
+                        <button class="dropbtn">Cars</button>
+                        <div class="dropdown-content">
+                            <a href="Cars.html#sedan">Sedan</a>
+                            <a href="Cars.html#coupe">Coupe</a>
+                            <a href="Cars.html#suv">SUV</a>
+                        </div>
+                    </section>
 
-                <section class="drop-down">
-                    <button class="dropbtn">Trucks</button>
-                    <div class="dropdown-content">
-                        <a href="categories/category1.html#1">Sedan</a>
-                        <a href="categories/category1.html#2">Coupe</a>
-                        <a href="categories/category1.html#3">SUV</a>
-                    </div>
+                    <section class="drop-down">
+                        <button class="dropbtn">Trucks</button>
+                        <div class="dropdown-content">
+                            <a href="Trucks.html#">Sedan</a>
+                            <a href="Trucks.html#2">Coupe</a>
+                            <a href="Trucks.html#3">SUV</a>
+                        </div>
+                    </section>
+                    <section class="clickable-button">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href = '../home.html';"
+                        >
+                            Motorcycles
+                        </button>
+                    </section>
+                    <section class="clickable-button">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href = '../home.html';"
+                        >
+                            Boats
+                        </button>
+                    </section>
+                    <section class="clickable-button">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href = '../home.html';"
+                        >
+                            Recreational
+                        </button>
+                    </section>
                 </section>
-                <section class="clickable-button">
-                    <button
-                        class="dropbtn"
-                        onclick="window.location.href = 'home.html';"
-                    >
-                        Motorcycles
-                    </button>
-                </section>
-                <section class="clickable-button">
-                    <button
-                        class="dropbtn"
-                        onclick="window.location.href = 'home.html';"
-                    >
-                        Boats
-                    </button>
-                </section>
-                <section class="clickable-button">
-                    <button
-                        class="dropbtn"
-                        onclick="window.location.href = 'home.html';"
-                    >
-                        Recreational
-                    </button>
+                <section id="cars">
+                    <section id="sedan">Sedan</section>
+                    <section id="coupe">Coupe</section>
+                    <section id="suv">SUV</section>
                 </section>
             </section>
-
-            <section id="1">Sedan</section>
-            <section id="2">Coupe</section>
-            <section id="3">SUV</section>
+            <footer>
+                <!-- Alexander Ratelle -->
+                <section id="copyright">
+                    <p>
+                        &copy; 2022 Copyright. All rights given away. <br />
+                        <br />
+                        Tested from my sonic account, click on this
+                        <a href="https://sonic.dawsoncollege.qc.ca/x">link </a>
+                    </p>
+                </section>
+                <section id="contact">
+                    <section id="questions">
+                        Have a question?
+                        <a href="../forms/contact.html"> Contact us </a>
+                    </section>
+                    <section id="social">
+                        Check us out on: <i class="fa fa-instagram"></i>
+                        <a href="https://www.instagram.com">Instagram</a><br />
+                        <i class="fa fa-facebook-official"></i>
+                        <a href="https://www.facebook.com">Facebook</a>
+                    </section>
+                </section>
+            </footer>
         </section>
-        <footer>
-            <!-- Alexander Ratelle -->
-            <section id="copyright">
-                <p>
-                    &copy; 2022 Copyright. All rights given away. <br />
-                    <br />
-                    Tested from my sonic account, click on this
-                    <a href="https://sonic.dawsoncollege.qc.ca/x">link </a>
-                </p>
-            </section>
-            <section id="contact">
-                <section id="questions">
-                    Have a question?
-                    <a href="forms/contact.html"> Contact us </a>
-                </section>
-                <section id="social">
-                    Check us out on: <i class="fa fa-instagram"></i>
-                    <a href="https://www.instagram.com">Instagram</a><br />
-                    <i class="fa fa-facebook-official"></i>
-                    <a href="https://www.facebook.com">Facebook</a>
-                </section>
-            </section>
-        </footer>
     </body>
 </html>
