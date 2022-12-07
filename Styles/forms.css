@@ -18,23 +18,22 @@
   padding-left: 50em;
   padding-right: 50em;
   padding-bottom: 9em;
-
   flex: 6
 }
 
-header{
+header{           /* Alexander Ratelle */
   flex: 2;
 }
-footer{
+footer{           /* Alexander Ratelle */
   flex: 2;
 }
 
 
 
-/*input[type=text] {
+input[type=text] {
         background-color: lightgray;
         color: black;
-}*/
+}
 
 input[type=text] { /*Michael Arcaro*/ 
     width: 100%;

@@ -5,15 +5,15 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-a {
+a {           /* Alexander Ratelle */
     text-decoration: none;
     color: white;
 
 }
-a:hover {
+a:hover {           /* Alexander Ratelle */
     text-decoration: underline;
 }
-a:active {
+a:active {           /* Alexander Ratelle */
     color: white;
 }
 
@@ -58,7 +58,7 @@ header {
     background: #ce3939;
     font-size: 16;
 }
-#main {
+#main {           /* Alexander Ratelle */
     display: flex;
     height: 100%;
     flex: 6;
@@ -75,11 +75,11 @@ header {
     position: relative;
 }
 
-#top {
+#top {           /* Alexander Ratelle */
     flex: 2;
 }
 
-#bottom {
+#bottom {           /* Alexander Ratelle */
     flex: 3;
 }
 footer {
@@ -98,22 +98,22 @@ footer {
     background: rgb(120, 125, 131);
     color: white;
 
-}
-#copyright{
+} 
+#copyright{           /* Alexander Ratelle */
     flex:3;
 }
-#contact{
+#contact{           /* Alexander Ratelle */
     display: flex;
     flex-direction: column;
     flex: 1;
 }
 
-#questions{
+#questions{           /* Alexander Ratelle */
     flex: 1;
     text-align: right;
     padding-bottom: 20px;
 }
-#social{
+#social{           /* Alexander Ratelle */
     text-align: right;
     flex: 3;
 }
