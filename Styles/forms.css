@@ -15,7 +15,7 @@
     flex: 1;
 }
 #form {
-    padding-top: 4em;
+    padding-top: 2em;
     padding-bottom: 5em;
     flex: 6;
 }
@@ -30,7 +30,9 @@ footer {
 }
 
 input[type="text"] {
-    background-color: lightgray;
+    /*Michael Arcaro*/
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
     color: black;
 }
 
@@ -38,7 +40,7 @@ input[type="text"] {
     /*Michael Arcaro*/
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0px;
     box-sizing: border-box;
 }
 
@@ -49,7 +51,29 @@ input[type="text"] {
     font-size: large;
 }
 
-input [type="submit"] {
-  /*Michael Arcaro*/
-  width: 15%;  
+#title2 {
+    /*Michael Arcaro*/
+    padding: 7px;
+    text-align: center;
+    font-size: medium;
+    
 }
+
+textarea { 
+    /*Michael Arcaro*/
+    width: 93%;
+    height: 150px;
+    margin: 40px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+#p {
+    margin-left: 50px;
+}
+
+
