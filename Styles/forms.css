@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 3em;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     flex: 6;
     flex-direction: column;
 }
@@ -16,9 +16,7 @@
 }
 #form {
     padding-top: 4em;
-    padding-left: 50em;
-    padding-right: 50em;
-    padding-bottom: 9em;
+    padding-bottom: 5em;
     flex: 6;
 }
 
