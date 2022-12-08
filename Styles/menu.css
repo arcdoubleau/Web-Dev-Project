@@ -23,7 +23,8 @@
     background-color: #d5d3d3;
 }
 
-.dropdown-content a:hover {           /* Alexander Ratelle */
+.dropdown-content a:hover {
+    /* Alexander Ratelle */
     background-color: rgb(234, 234, 234);
 }
 

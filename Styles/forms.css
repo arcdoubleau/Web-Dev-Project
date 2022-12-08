@@ -1,49 +1,52 @@
 #wrapper {
-  display: flex;
+    display: flex;
 }
-#main{ /* Alexander Ratelle */
+#main {
+    /* Alexander Ratelle */
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 3em;
     margin-bottom: 10em;
-    flex:6;
-    flex-direction:column;
+    flex: 6;
+    flex-direction: column;
 }
-#title{
-  flex: 1;
+#title {
+    flex: 1;
 }
-#form{
-  padding-top: 4em;
-  padding-left: 50em;
-  padding-right: 50em;
-  padding-bottom: 9em;
-  flex: 6
-}
-
-header{           /* Alexander Ratelle */
-  flex: 2;
-}
-footer{           /* Alexander Ratelle */
-  flex: 2;
+#form {
+    padding-top: 4em;
+    padding-left: 50em;
+    padding-right: 50em;
+    padding-bottom: 9em;
+    flex: 6;
 }
 
-
-
-input[type=text] {
-        background-color: lightgray;
-        color: black;
+header {
+    /* Alexander Ratelle */
+    flex: 2;
+}
+footer {
+    /* Alexander Ratelle */
+    flex: 2;
 }
 
-input[type=text] { /*Michael Arcaro*/ 
+input[type="text"] {
+    background-color: lightgray;
+    color: black;
+}
+
+input[type="text"] {
+    /*Michael Arcaro*/
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
+}
 
-  #title { /* Michael Arcaro*/
+#title {
+    /* Michael Arcaro*/
     padding-top: 4em;
     text-align: center;
     font-size: large;
-  }
+}

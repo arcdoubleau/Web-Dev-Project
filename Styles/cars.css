@@ -1,4 +1,5 @@
-#cars{             /* Alexander Ratelle */
+#cars {
+    /* Alexander Ratelle */
     display: flex;
     flex-direction: column;
     padding-left: 2em;
@@ -6,22 +7,24 @@
     padding-bottom: 2em;
 }
 
-#coupe{           /* Alexander Ratelle */
+#coupe {
+    /* Alexander Ratelle */
     flex: 1;
     padding-left: 2em;
     padding-top: 2em;
     padding-bottom: 2em;
 }
 
-#sedan{           /* Alexander Ratelle */
+#sedan {
+    /* Alexander Ratelle */
     flex: 1;
     padding-left: 2em;
     padding-bottom: 2em;
 }
 
-#suv{           /* Alexander Ratelle */
-    flex:1;
+#suv {
+    /* Alexander Ratelle */
+    flex: 1;
     padding-left: 2em;
     padding-top: 2em;
-    
 }
