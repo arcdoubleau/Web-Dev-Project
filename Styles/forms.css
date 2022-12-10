@@ -31,17 +31,14 @@ footer {
 
 input[type="text"] {
     /*Michael Arcaro*/
-    border: 2px solid #ccc;
-    background-color: #f8f8f8;
-    color: black;
-}
-
-input[type="text"] {
-    /*Michael Arcaro*/
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0px;
-    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    color: black;
+    border-radius: 4px;
+
 }
 
 #title {
@@ -64,16 +61,27 @@ textarea {
     width: 93%;
     height: 150px;
     margin: 40px 40px;
+    margin-top: 10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+    margin-bottom: 5px;
 }
 
 #p {
     margin-left: 50px;
 }
 
+#pname {
+    width: 93%;
+    margin: 40px 40px;
+    margin-top: 10px;
+    border: 
+}
 
+#submit {
+    margin-left: 50px;
+}
