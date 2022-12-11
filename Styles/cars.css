@@ -28,3 +28,16 @@
     padding-left: 2em;
     padding-top: 2em;
 }
+
+table, th, td {
+    /*Michael Arcaro*/ 
+    border: 2px solid;
+    text-align: center;
+    margin-right: 32px;
+    border-collapse: collapse;
+}
+
+img {
+    /*Michael Arcro*/
+    margin-top: 3px;
+}
