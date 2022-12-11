@@ -11,7 +11,7 @@
     /* Alexander Ratelle */
     flex: 1;
     padding-left: 2em;
-    padding-top: 2em;
+    /*padding-top: 2em; */
     padding-bottom: 2em;
 }
 
@@ -33,11 +33,16 @@ table, th, td {
     /*Michael Arcaro*/ 
     border: 2px solid;
     text-align: center;
-    margin-right: 32px;
+    margin-right: 62px; 
     border-collapse: collapse;
 }
 
 img {
     /*Michael Arcro*/
     margin-top: 3px;
+}
+
+tr:nth-child(even) {
+    /*Michael Arcaro*/
+    background-color: #f2f2f2;
 }
