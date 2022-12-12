@@ -28,6 +28,7 @@
             content="sell, buy, cars, honda, toyota, trucks for sale, cars for sale"
         />
         <meta name="robots" content="follow" />
+
     </head>
     <body>
         <section id="wrapper">
@@ -68,9 +69,9 @@
                             <i class="fa fa-truck"></i> Trucks
                         </button>
                         <div class="dropdown-content">
-                            <a href="categories/Cars.html#1">Sedan</a>
-                            <a href="categories/Cars.html#2">Coupe</a>
-                            <a href="categories/Cars.html#3">SUV</a>
+                            <a href="categories/Trucks.html#1">Sedan</a>
+                            <a href="categories/Trucks.html#2">Coupe</a>
+                            <a href="categories/Trucks.html#3">SUV</a>
                         </div>
                     </section>
                     <section class="clickable-button">
@@ -101,6 +102,7 @@
                         </button>
                     </section>
                 </section>
+                
                 <section id="page-content">
                     <!-- Alexander Ratelle -->
                     <section id="banner">
@@ -133,5 +135,20 @@
                 </section>
             </footer>
         </section>
+                <!-- Edgar-Leon Desrochers-->
+                <script>
+                    window.onscroll = function() {myFunction()};
+                    
+                    var header = document.getElementById("menu-bar");
+                    var sticky = header.offsetTop;
+                    
+                    function myFunction() {
+                      if (window.pageYOffset > sticky) {
+                        header.classList.add("sticky");
+                      } else {
+                        header.classList.remove("sticky");
+                      }
+                    }
+                </script>
     </body>
 </html>

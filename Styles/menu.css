@@ -8,6 +8,7 @@
     padding: 2px;
     border-bottom: rgb(231, 231, 231) 2px solid;
     position: sticky;
+    
 }
 #homebtn {
     /* Alexander Ratelle */
@@ -66,4 +67,10 @@
     /* Alexander Ratelle */
     margin: 4px;
     background-color: #e1e1e1;
+}
+.sticky 
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
