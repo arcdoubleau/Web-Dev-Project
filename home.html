@@ -28,7 +28,6 @@
             content="sell, buy, cars, honda, toyota, trucks for sale, cars for sale"
         />
         <meta name="robots" content="follow" />
-
     </head>
     <body>
         <section id="wrapper">
@@ -55,29 +54,36 @@
                     </button>
 
                     <section class="drop-down">
-                        <button class="dropbtn">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href = 'categories/Cars.html';"
+                        >
                             <i class="fa fa-car"></i> Cars
                         </button>
                         <div class="dropdown-content">
                             <a href="categories/Cars.html#sedan">Sedan</a>
                             <a href="categories/Cars.html#coupe">Coupe</a>
-                            <a href="categories/Cars.html#suv">SUV</a>
+                            <a href="categories/Cars.html#hatchback"
+                                >Hatchback</a
+                            >
                         </div>
                     </section>
                     <section class="drop-down">
-                        <button class="dropbtn">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href = 'categories/Trucks.html';"
+                        >
                             <i class="fa fa-truck"></i> Trucks
                         </button>
                         <div class="dropdown-content">
-                            <a href="categories/Trucks.html#1">Sedan</a>
-                            <a href="categories/Trucks.html#2">Coupe</a>
-                            <a href="categories/Trucks.html#3">SUV</a>
+                            <a href="categories/Trucks.html#pickup">Pickup</a>
+                            <a href="categories/Trucks.html#suv">SUV</a>
                         </div>
                     </section>
                     <section class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = 'home.html';"
+                            onclick="window.location.href = 'categories/Motorcycles.html';"
                         >
                             <i class="fa fa-motorcycle"></i> Motorcycles
                         </button>
@@ -85,7 +91,7 @@
                     <section class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = 'home.html';"
+                            onclick="window.location.href = 'categories/Boats.html';"
                         >
                             <i style="font-size: small" class="material-icons"
                                 >&#xe532;</i
@@ -96,13 +102,13 @@
                     <section class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = 'home.html';"
+                            onclick="window.location.href = 'categories/RV.html';"
                         >
-                            Recreational
+                            <i class="fa fa-child"></i> Recreational
                         </button>
                     </section>
                 </section>
-                
+
                 <section id="page-content">
                     <!-- Alexander Ratelle -->
                     <section id="banner">
