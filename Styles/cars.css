@@ -25,7 +25,7 @@
 
 table, th, td {
     /*Michael Arcaro*/ 
-    border: 2px solid;
+    border: 2px solid black;
     text-align: center;
     margin-right: 62px; 
     border-collapse: collapse;
@@ -42,4 +42,13 @@ img {
 tr:nth-child(even) {
     /*Michael Arcaro*/
     background-color: #f2f2f2;
+}
+
+#buybutton{
+    background-color: #d54545;
+    color: white
+}
+#buybutton:hover{
+    background-color: #ce3939;
+    
 }
