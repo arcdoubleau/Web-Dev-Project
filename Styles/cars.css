@@ -38,8 +38,11 @@ table, th, td {
 }
 
 img {
-    /*Michael Arcro*/
-    margin-top: 3px;
+    /* Michael Arcaro */ 
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    padding: 5px;
 }
 
 tr:nth-child(even) {
