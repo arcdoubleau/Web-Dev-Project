@@ -31,14 +31,27 @@ footer {
 
 input[type="text"] {
     /*Michael Arcaro*/
-    width: 100%;
+    width: auto;
+    height: auto;
     padding: 12px 20px;
-    margin: 8px 0px;
+    margin: auto;
     border: 2px solid #ccc;
     background-color: #f8f8f8;
     color: black;
     border-radius: 4px;
 
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 90%;
+    height: 90%;
 }
 
 #title {
@@ -60,7 +73,7 @@ textarea {
     /*Michael Arcaro*/
     width: 93%;
     height: 150px;
-    margin: 40px 40px;
+    margin: 70px 70px;
     margin-top: 10px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -72,16 +85,15 @@ textarea {
 }
 
 #p {
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 #pname {
     width: 93%;
-    margin: 40px 40px;
+    margin: 70px 70px;
     margin-top: 10px;
-    border: 
 }
 
 #submit {
-    margin-left: 50px;
+    margin-left: 70px;
 }
