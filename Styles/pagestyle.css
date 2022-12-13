@@ -104,6 +104,7 @@ footer {
     font-weight: 550;
     background: rgb(120, 125, 131);
     color: white;
+    flex-wrap: wrap;
 }
 #copyright {
     /* Alexander Ratelle */

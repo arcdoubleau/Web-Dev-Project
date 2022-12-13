@@ -1,25 +1,51 @@
 #slider {
     /* Alexander Ratelle */
-    flex: 8;
+    flex: 7;
     position: relative;
-    width: 70%;
-    height: 100%;
+    width: 60%;
+    height: 90%;
     transform: translate(0%, 0%);
-    background-image: url(../images/pexels-s-von-hoerst-2684219.jpg);
+    text-align: center;
+    background-image: url(../images/jeep.png);
     background-size: 100% 100%;
     box-shadow: 1px 2px 10px 5px rgba(0, 0, 0, 0.5);
-    animation: slider 9s infinite linear;
+    animation: slider 20s infinite ease;
+    animation-fill-mode: forwards;
+    animation-delay: 1200ms;
+    
 }
 
 @keyframes slider {
     /* Alexander Ratelle */
-    0% {
-        background-image: url(../images/pexels-s-von-hoerst-2684219.jpg);
+    15% {
+        background-image: url(../images/altima.png);
+    }
+    25% {
+        background-image: url(../images/brz.png);
     }
     35% {
-        background-image: url(../images/pexels-pixabay-358189.jpg);
+        background-image: url(../images/camry.png);
+    } 45% {
+        background-image: url(../images/civic.png);
+    } 55% {
+        background-image: url(../images/dodge.png);
+    } 65% {
+        background-image: url(../images/yamaha.png);
+    } 75% {
+        background-image: url(../images/searay.png);
+    } 85% {
+        background-image: url(../images/golf.png);
     }
-    70% {
-        background-image: url(../images/pexels-dennis-serb-14594064.jpg);
-    }
+}
+
+.bottom-left{
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+    color:white;
+    border: 1px rgb(150, 149, 149) solid;
+    padding: 10px;
+    /* padding-left: 7px;
+    padding-right: 7px; */
+    background: #ce3939;
 }
