@@ -9,6 +9,10 @@
         <link rel="stylesheet" href="../Styles/cars.css" />
         <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
         <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
         />
@@ -39,53 +43,67 @@
                     >
                         <i class="material-icons">home</i>
                     </button>
-                    <section class="drop-down">
-                        <button class="dropbtn">Cars</button>
-                        <div class="dropdown-content">
-                            <a href="Cars.html#sedan">Sedan</a>
-                            <a href="Cars.html#coupe">Coupe</a>
-                            <a href="Cars.html#suv">SUV</a>
-                        </div>
-                    </section>
 
                     <section class="drop-down">
-                        <button class="dropbtn">Trucks</button>
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href = '../categories/Cars.html';"
+                        >
+                            <i class="fa fa-car"></i> Cars
+                        </button>
                         <div class="dropdown-content">
-                            <a href="Trucks.html#">Sedan</a>
-                            <a href="Trucks.html#2">Coupe</a>
-                            <a href="Trucks.html#3">SUV</a>
+                            <a href="../categories/Cars.html#sedan">Sedan</a>
+                            <a href="../categories/Cars.html#coupe">Coupe</a>
+                            <a href="../categories/Cars.html#hatchback"
+                                >Hatchback</a
+                            >
+                        </div>
+                    </section>
+                    <section class="drop-down">
+                        <button
+                            class="dropbtn"
+                            onclick="window.location.href = '../categories/Trucks.html';"
+                        >
+                            <i class="fa fa-truck"></i> Trucks
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="../categories/Trucks.html#pickup"
+                                >Pickup</a
+                            >
+                            <a href="../categories/Trucks.html#suv">SUV</a>
                         </div>
                     </section>
                     <section class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = '../home.html';"
+                            onclick="window.location.href = '../categories/Motorcycles.html';"
                         >
-                            Motorcycles
+                            <i class="fa fa-motorcycle"></i> Motorcycles
                         </button>
                     </section>
                     <section class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = '../home.html';"
+                            onclick="window.location.href = '../categories/Boats.html';"
                         >
+                            <i style="font-size: small" class="material-icons"
+                                >&#xe532;</i
+                            >
                             Boats
                         </button>
                     </section>
                     <section class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = '../home.html';"
+                            onclick="window.location.href = '../categories/RV.html';"
                         >
-                            Recreational
+                            <i class="fa fa-child"></i> Recreational
                         </button>
                     </section>
                 </section>
                 <section id="cars">
                     <section id="sedan">
-                        
-                        <h2> Standard </h2>
-
+                        <h2>Standard</h2>
 
                         <!-- Michael Arcaro-->
                         <table>
@@ -96,31 +114,33 @@
 
                             </tr>
                             <tr>
-                                <td>Yamaha MT-07 </td>
-                            </tr>
-                            <tr> 
-                                <td> 2018</td>
-                            </tr> 
-                            <tr>
-                                <td> $8,300</td>
-                            </tr> 
-                            <tr> 
-                                <td> 3,000 km</td>
+                                <td>Yamaha MT-07</td>
                             </tr>
                             <tr>
-                                <td> Stock # U000471</td>
-                            </tr> 
-                            <tr> 
-                                <td colspan="2"> Inspired by Japanese subculture and created by some of the most visionary designers in the business, the Yamaha MT-07 marked the real beginning of Yamaha’s "hyper naked" segment.
-                                </td> 
-                            </tr> 
+                                <td>2018</td>
+                            </tr>
+                            <tr>
+                                <td>$8,300</td>
+                            </tr>
+                            <tr>
+                                <td>3,000 km</td>
+                            </tr>
+                            <tr>
+                                <td>Stock # U000471</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Inspired by Japanese subculture and created
+                                    by some of the most visionary designers in
+                                    the business, the Yamaha MT-07 marked the
+                                    real beginning of Yamaha’s "hyper naked"
+                                    segment.
+                                </td>
+                            </tr>
                         </table>
 
-                        <br>
-                        <br>
-
-                        
-
+                        <br />
+                        <br />
                     </section>
 
                     <section id="coupe">
@@ -157,7 +177,45 @@
                     <br>
                     <br>
 
+                        <!-- Michael Arcaro-->
+                        <table>
+                            <tr>
+                                <th rowspan="6">
+                                    <img
+                                        src="../images/camry.png"
+                                        alt="Vehicle Image"
+                                    />
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>Indian Scout Bobber Sixty ABS</td>
+                            </tr>
+                            <tr>
+                                <td>2021</td>
+                            </tr>
+                            <tr>
+                                <td>$12,000</td>
+                            </tr>
+                            <tr>
+                                <td>2,560 km</td>
+                            </tr>
+                            <tr>
+                                <td>Stock # USD71348</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    The Indian Scout Bobber Sixty is an
+                                    approachable cruiser for newer riders. The
+                                    power is easily managed at low rpm, as its
+                                    sits low with a fairly narrow handlebar, the
+                                    Bobber Sixty is a great way to get through
+                                    urban traffic.
+                                </td>
+                            </tr>
+                        </table>
 
+                        <br />
+                        <br />
                     </section>
 
                     <section id="hatchback">
@@ -170,31 +228,43 @@
                                     <img src="../images/ducati.png" alt="Vehicle Image" />
                                  </th>
 
+                        <!-- Michael Arcaro-->
+                        <table>
+                            <tr>
+                                <th rowspan="6">
+                                    <img
+                                        src="../images/camry.png"
+                                        alt="Vehicle Image"
+                                    />
+                                </th>
                             </tr>
                             <tr>
-                                <td> Ducati Panigale V4 S  </td>
-                            </tr>
-                            <tr> 
-                                <td> 2020</td>
-                            </tr> 
-                            <tr>
-                                <td> $35,000</td>
-                            </tr> 
-                            <tr> 
-                                <td> 3,100 km</td>
+                                <td>Ducati Panigale V4 S</td>
                             </tr>
                             <tr>
-                                <td> Stock # 2099</td>
-                            </tr> 
-                            <tr> 
-                                <td colspan="2">Year after year, the Panigale V4 is renewed to become faster and more exciting on the track for both the amateur and the professional rider. </td> 
-                            </tr> 
+                                <td>2020</td>
+                            </tr>
+                            <tr>
+                                <td>$35,000</td>
+                            </tr>
+                            <tr>
+                                <td>3,100 km</td>
+                            </tr>
+                            <tr>
+                                <td>Stock # 2099</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Year after year, the Panigale V4 is renewed
+                                    to become faster and more exciting on the
+                                    track for both the amateur and the
+                                    professional rider.
+                                </td>
+                            </tr>
                         </table>
 
-                        <br>
-                        <br>
-
-
+                        <br />
+                        <br />
                     </section>
                 </section>
             </section>
