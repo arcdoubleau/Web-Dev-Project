@@ -5,7 +5,8 @@ h2{
     /* Alexander Ratelle */
     display: flex;
     flex-direction: column;
-    padding-left: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-top: 2em;
     padding-bottom: 2em;
 }
@@ -13,15 +14,17 @@ h2{
 #coupe, #sedan {
     /* Alexander Ratelle */
     flex: 1;
-    padding-left: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
     padding-bottom: 2em;
 }
-
 
 #hatchback {
     /* Alexander Ratelle */
     flex: 1;
-    padding-left: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+
     padding-top: 2em;
 }
 
@@ -53,4 +56,7 @@ tr:nth-child(even) {
 #buybutton:hover{
     background-color: #ce3939;
     
+}
+table{
+    width: 100%;
 }

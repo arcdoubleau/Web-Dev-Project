@@ -76,6 +76,11 @@ header {
     flex-direction: column;
     height: 100%;
     flex: 7;
+    background: hsla(0, 0%, 100%, 1);
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFFCF5", GradientType=1 );
 }
 #page-content {
     display: flex;
