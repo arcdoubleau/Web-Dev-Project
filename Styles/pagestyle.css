@@ -19,6 +19,16 @@ a:active {
     color: white;
 }
 
+a:link {
+    /* Michael Arcaro 2034803 */
+    color: white;
+  }
+
+a:visited {
+    /* Michael Arcaro 2034803*/ 
+    color: blue;
+  }
+
 #wrapper {
         /* Alexander Ratelle */
     display: flex;
