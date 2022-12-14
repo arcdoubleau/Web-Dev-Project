@@ -128,13 +128,17 @@
                         </button>
                     </section>
                     <!--Edgar-Leon Desrochers -->
-                    <audio id="my_audio" src="media/audio/Moonlight Sonata.mp3" autoplay controls muted> </audio>
-
-
+                    <audio id="my_audio" 
+                        src="media/audio/Moonlight Sonata.mp3" 
+                        src="media/audio/Moonlight Sonata.ogg"
+                        src="media/audio/Moonlight Sonata.wav"
+                        autoplay controls muted> 
+                    </audio>
                     <script>
                         var audio = document.getElementById("my_audio");
                         audio.muted = false;
-                      </script>
+                    </script>
+                    <!-- in order to make the audio autoplay in the firefox browser, you must not have the option that blocks autoplay on audios-->
                 </section>
             </section>
             <footer>
