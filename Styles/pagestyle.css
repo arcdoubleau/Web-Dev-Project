@@ -5,28 +5,20 @@
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+a:hover {
+    /* Alexander Ratelle */
+    text-decoration: underline;
+    color: black;
+}
 a {
     /* Alexander Ratelle */
     text-decoration: none;
     color: white;
 }
-a:hover {
-    /* Alexander Ratelle */
-    text-decoration: underline;
-}
+
 a:active {
     /* Alexander Ratelle */
-    color: white;
-}
-
-a:link {
-    /* Michael Arcaro 2034803 */
-    color: white;
-}
-
-a:visited {
-    /* Michael Arcaro 2034803*/
-    color: lightblue;
+    color: black;
 }
 
 #wrapper {
