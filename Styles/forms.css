@@ -107,8 +107,7 @@ textarea {
 
     width: 100%;
 }
-#fname,
-#lname {
+#lname, #fname {
     /* Alexander Ratelle */
     margin-bottom: 20px;
     width: 100%;

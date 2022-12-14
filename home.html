@@ -1,46 +1,44 @@
 <!-- Alexander Ratelle -->
 <!--Edgar-Leon Desrochers-->
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <!-- Alexander Ratelle -->
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="styles/menu.css" />
-        <link rel="stylesheet" href="styles/pagestyle.css" />
-        <link rel="stylesheet" href="styles/media.css" />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/menu.css">
+        <link rel="stylesheet" href="styles/pagestyle.css">
+        <link rel="stylesheet" href="styles/media.css">
         <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
-        />
-        <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+        >
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Vehicle Sales</title>
-        <meta name="description" content="Post and sell your car fast!" />
+        <meta name="description" content="Post and sell your car fast!">
         <meta
             name="keywords"
             content="sell, buy, cars, honda, toyota, trucks for sale, cars for sale"
-        />
-        <meta name="robots" content="follow" />
+        >
+        <meta name="robots" content="follow">
     </head>
     <body>
-        <section id="wrapper">
+        <div id="wrapper">
             <header>
                 <!-- Alexander Ratelle -->
                 <a href="home.html">
-                    <img id="logo" src="images/logo.png" alt="logo" />
+                    <img id="logo" src="images/logo.png" alt="logo">
                 </a>
                 <button
                     id="upload-button"
-                    onclick="window.location.href='forms/form.html';"
-                >
+                    onclick="window.location.href='forms/form.html';">
                     <b>POST AD</b>
                 </button>
             </header>
-            <section class="main">
-                <section id="menu-bar">
+            <div class="main">
+                <div id="menu-bar">
                     <!-- Alexander Ratelle -->
                     <button
                         id="homebtn"
@@ -49,22 +47,20 @@
                         <i class="material-icons">home</i>
                     </button>
 
-                    <section class="drop-down">
+                    <div class="drop-down">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = 'categories/Cars.html';"
-                        >
+                            onclick="window.location.href = 'categories/Cars.html';">
                             <i class="fa fa-car"></i> Cars
                         </button>
                         <div class="dropdown-content">
                             <a href="categories/Cars.html#sedan">Sedan</a>
                             <a href="categories/Cars.html#coupe">Coupe</a>
                             <a href="categories/Cars.html#hatchback"
-                                >Hatchback</a
-                            >
+                                >Hatchback</a>
                         </div>
-                    </section>
-                    <section class="drop-down">
+                    </div>
+                    <div class="drop-down">
                         <button
                             class="dropbtn"
                             onclick="window.location.href = 'categories/Trucks.html';"
@@ -75,97 +71,84 @@
                             <a href="categories/Trucks.html#pickup">Pickup</a>
                             <a href="categories/Trucks.html#suv">SUV</a>
                         </div>
-                    </section>
-                    <section class="clickable-button">
+                    </div>
+                    <div class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = 'categories/Motorcycles.html';"
-                        >
+                            onclick="window.location.href = 'categories/Motorcycles.html';">
                             <i class="fa fa-motorcycle"></i> Motorcycles
                         </button>
-                    </section>
-                    <section class="clickable-button">
+                    </div>
+                    <div class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = 'categories/Boats.html';"
-                        >
+                            onclick="window.location.href = 'categories/Boats.html';">
                             <i style="font-size: small" class="material-icons"
-                                >&#xe532;</i
-                            >
+                                >&#xe532;</i>
                             Boats
                         </button>
-                    </section>
-                    <section class="clickable-button">
+                    </div>
+                    <div class="clickable-button">
                         <button
                             class="dropbtn"
-                            onclick="window.location.href = 'categories/RV.html';"
-                        >
+                            onclick="window.location.href = 'categories/RV.html';">
                             <i class="fa fa-child"></i> Recreational
                         </button>
-                    </section>
-                </section>
+                    </div>
+                </div>
 
-                <section id="page-content">
+                <div id="page-content">
                     <!-- Alexander Ratelle -->
                     <section id="banner">
                         <h2>
                             <b>
-                                Welcome to the best used vehicule sales site!</b
-                            >
+                                Welcome to the best used vehicule sales site!</b>
                         </h2>
-                        <br />
+                        <br>
                         <p>View our selection below</p>
                     </section>
-                    <section
-                        onclick="window.location.href = 'categories/cars.html';"
-                        id="slider"
-                    >
+                    <div onclick="window.location.ref = 'categories/cars.html';" id="slider">
                         <button
                             onclick="window.location.href = 'categories/cars.html';"
-                            class="bottom-left"
-                        >
+                            class="bottom-left">
                             <b>For Sale</b>
                         </button>
-                    </section>
+                    </div>
                     <!--Edgar-Leon Desrochers -->
-                    <audio
-                        id="my_audio"
-                        src="media/audio/Moonlight Sonata.mp3"
-                        src="media/audio/Moonlight Sonata.ogg"
-                        src="media/audio/Moonlight Sonata.wav"
-                        autoplay
-                        controls
-                        muted
-                    ></audio>
+                    <audio id="my_audio" autoplay controls muted>
+                        <source src="media/audio/Moonlight_Sonata.mp3" type="audio/mp3">
+                        <source src="media/audio/Moonlight_Sonata.ogg" type="audio/ogg">
+                        <source src="media/audio/Moonlight_Sonata.wav" type="audio/wav">
+                    </audio>
                     <script>
                         var audio = document.getElementById("my_audio");
                         audio.muted = false;
                     </script>
                     <!-- in order to make the audio autoplay in the firefox browser, you must not have the option that blocks autoplay on audios-->
-                </section>
-            </section>
+                </div>
+            </div>
             <footer>
                 <!-- Alexander Ratelle -->
-                <section id="copyright">
+                <div id="copyright">
                     <p>
-                        &copy; 2022 Copyright. All rights given away. <br />
-                        <br />
+                        &copy; 2022 Copyright. All rights given away. <br>
+                        <br>
                         Tested from my sonic account, click below:
                         <!-- Michael Arcaro 2034803 -->
-                        <br />
-                        <br />
+                        <br>
+                        <br>
                         <a
                             href="https://sonic.dawsoncollege.qc.ca/~F22BXC2034803/Project/home.html"
                         >
                             Arcaro/2034803
                         </a>
-                        <br />
+                        <br>
                         <a
                             href="https://sonic.dawsoncollege.qc.ca/~F22BXC2237517/Project/home.html"
                         >
                             Desrochers/2237517 20%</a
                         >
-                        <br />
+                        <br>
                         <a
                             href="https://sonic.dawsoncollege.qc.ca/~F22BXC2042875/Project/home.html"
                         >
@@ -173,25 +156,25 @@
                         >
                     </p>
                     <!-- Alexander Ratelle -->
-                </section>
-                <section id="contact">
-                    <section id="questions">
+                </div>
+                <div id="contact">
+                    <div id="questions">
                         Have a question?
                         <a href="forms/contact.html"> Contact us </a>
-                    </section>
-                    <section id="social">
-                        Check us out on:<br />
+                    </div>
+                    <div id="social">
+                        Check us out on:<br>
                         <i class="fa fa-instagram"></i>
                         <a href="https://www.instagram.com" target="_blank"
                             >Instagram</a
-                        ><br />
+                        ><br>
                         <i class="fa fa-facebook-official"></i>
                         <a href="https://www.facebook.com" target="_blank"
                             >Facebook</a
                         >
-                    </section>
-                </section>
+                    </div>
+                </div>
             </footer>
-        </section>
+        </div>
     </body>
 </html>
