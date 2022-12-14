@@ -112,3 +112,14 @@ textarea {
     margin-bottom: 20px;
     width: 100%;
 }
+.submit-button {
+    /*Edgar-Leon Desrochers */
+    position: relative; top: -5em;
+}
+#submitted-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em
+}
+
+
