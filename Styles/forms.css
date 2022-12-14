@@ -1,20 +1,12 @@
 #wrapper {
-    display: flex;
-}
-#main {
     /* Alexander Ratelle */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 3em;
-    margin-bottom: 5em;
-    flex: 6;
-    flex-direction: column;
 }
 #title {
     flex: 1;
 }
 #form {
+    /* Alexander Ratelle */
     padding-top: 2em;
     padding-bottom: 5em;
     flex: 6;
@@ -46,8 +38,11 @@ input[type="text"] {
 }
 
 #content{
+    /* Alexander Ratelle */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: auto;
     margin-left: auto;
@@ -55,11 +50,17 @@ input[type="text"] {
     position: relative;
     width: 90%;
     height: 90%;
+    background: hsla(0, 0%, 100%, 1);
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFFCF5", GradientType=1 );
 }
 
 #title {
     /* Michael Arcaro*/
     padding-top: 4em;
+    padding-bottom: 1em;
     text-align: center;
     font-size: large;
 }
@@ -76,8 +77,6 @@ textarea {
     /*Michael Arcaro*/
     width: 100%;
     height: 150px;
-    /* margin: 70px 70px;
-    margin-top: 10px; */
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -87,16 +86,15 @@ textarea {
     margin-bottom: 5px;
 }
 
-#p {
-    /* margin-left: 80px; */
+#name,#email,#inquire{
+    /* Alexander Ratelle */
+    margin-bottom: 25px;
 }
 
 #pname {
     width: 100%;
-    /* margin: 70px 70px;
-    margin-top: 10px; */
 }
-
-#submit {
-    /* margin-left: 70px; */
+#fname,#lname{
+    margin-bottom: 20px;
+    width: 100%;
 }
