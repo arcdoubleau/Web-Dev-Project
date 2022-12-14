@@ -11,41 +11,45 @@
     animation-fill-mode: forwards;
     animation-delay: 1000ms;
     padding: 300px;
-    flex-basis: auto 
-    
+    width: 70%;
+    height: 50%;
+    flex-basis: 300px;
 }
 
 @keyframes slider {
     /* Alexander Ratelle */
     15% {
         background-image: url(../images/altima.png);
-        
     }
     25% {
         background-image: url(../images/brz.png);
     }
     35% {
         background-image: url(../images/camry.png);
-    } 45% {
+    }
+    45% {
         background-image: url(../images/civic.png);
-    } 55% {
+    }
+    55% {
         background-image: url(../images/dodge.png);
-    } 65% {
+    }
+    65% {
         background-image: url(../images/yamaha.png);
-    } 75% {
+    }
+    75% {
         background-image: url(../images/searay.png);
-    } 85% {
+    }
+    85% {
         background-image: url(../images/golf.png);
-        
     }
 }
 
-.bottom-left{
-        /* Alexander Ratelle */
+.bottom-left {
+    /* Alexander Ratelle */
     position: absolute;
     left: 10px;
     bottom: 8px;
-    color:white;
+    color: white;
     border: 1px rgb(150, 149, 149) solid;
     padding: 10px;
     padding-left: 7px;
@@ -53,4 +57,7 @@
     background: #ce3939;
 }
 
-audio {padding-top: 20px; padding-bottom: 0;}
+audio {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
