@@ -20,11 +20,13 @@ a:active {
 }
 
 #wrapper {
+        /* Alexander Ratelle */
     display: flex;
     flex-direction: column;
 }
 
 header {
+        /* Alexander Ratelle */
     display: flex;
     justify-content: space-between;
     height: 20%;
@@ -73,6 +75,7 @@ header {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFFCF5", GradientType=1 );
 }
 #page-content {
+        /* Alexander Ratelle */
     display: flex;
     flex: 1;
     justify-content: center;
@@ -96,6 +99,7 @@ header {
 }
 
 .bottom-left{
+        /* Alexander Ratelle */
     position: absolute;
     left: 10px;
     bottom: 8px;
