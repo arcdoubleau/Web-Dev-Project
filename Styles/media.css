@@ -14,7 +14,7 @@
     animation: slider 30s infinite ease;
     animation-fill-mode: forwards;
     animation-delay: 1000ms;
-    padding-bottom: 300px;
+    padding: 100px;
     
 }
 

@@ -1,3 +1,6 @@
+h2{
+    padding-bottom: 10px;
+}
 #cars {
     /* Alexander Ratelle */
     display: flex;
@@ -11,7 +14,6 @@
     /* Alexander Ratelle */
     flex: 1;
     padding-left: 2em;
-    /*padding-top: 2em; */
     padding-bottom: 2em;
 }
 

@@ -60,11 +60,12 @@ header {
     background: #ce3939;
     font-size: 16;
 }
-#main {
+.main {
     /* Alexander Ratelle */
     display: flex;
+    flex-direction: column;
     height: 100%;
-    flex: 6;
+    flex: 7;
 }
 #page-content {
     display: flex;
@@ -87,6 +88,18 @@ header {
     text-align: center;
     font-size: 25px;
     margin-bottom: 60px;
+}
+
+.bottom-left{
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+    color:white;
+    border: 1px rgb(150, 149, 149) solid;
+    padding: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background: #ce3939;
 }
 
 footer {

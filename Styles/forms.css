@@ -18,6 +18,9 @@
     padding-top: 2em;
     padding-bottom: 5em;
     flex: 6;
+    margin-left: 70px;
+    margin-right: 70px;
+
 }
 
 header {
@@ -71,10 +74,10 @@ input[type="text"] {
 
 textarea { 
     /*Michael Arcaro*/
-    width: 93%;
+    width: 100%;
     height: 150px;
-    margin: 70px 70px;
-    margin-top: 10px;
+    /* margin: 70px 70px;
+    margin-top: 10px; */
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
@@ -85,15 +88,15 @@ textarea {
 }
 
 #p {
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 #pname {
-    width: 93%;
-    margin: 70px 70px;
-    margin-top: 10px;
+    width: 100%;
+    /* margin: 70px 70px;
+    margin-top: 10px; */
 }
 
 #submit {
-    margin-left: 70px;
+    /* margin-left: 70px; */
 }
