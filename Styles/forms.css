@@ -12,7 +12,6 @@
     flex: 6;
     margin-left: 70px;
     margin-right: 70px;
-
 }
 
 header {
@@ -34,10 +33,9 @@ input[type="text"] {
     background-color: #f8f8f8;
     color: black;
     border-radius: 4px;
-
 }
 
-#content{
+#content {
     /* Alexander Ratelle */
     display: flex;
     flex-direction: column;
@@ -51,9 +49,21 @@ input[type="text"] {
     width: 90%;
     height: 90%;
     background: hsla(0, 0%, 100%, 1);
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
-    background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
-    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    background: linear-gradient(
+        90deg,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(42, 100%, 98%, 1) 50%
+    );
+    background: -moz-linear-gradient(
+        90deg,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(42, 100%, 98%, 1) 50%
+    );
+    background: -webkit-linear-gradient(
+        90deg,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(42, 100%, 98%, 1) 50%
+    );
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFFCF5", GradientType=1 );
 }
 
@@ -70,10 +80,9 @@ input[type="text"] {
     padding: 7px;
     text-align: center;
     font-size: medium;
-    
 }
 
-textarea { 
+textarea {
     /*Michael Arcaro 2034803*/
     width: 100%;
     height: 150px;
@@ -86,15 +95,21 @@ textarea {
     margin-bottom: 5px;
 }
 
-#name,#email,#inquire{
+#name,
+#email,
+#inquire {
     /* Alexander Ratelle */
     margin-bottom: 25px;
 }
 
 #pname {
+    /* Alexander Ratelle */
+
     width: 100%;
 }
-#fname,#lname{
+#fname,
+#lname {
+    /* Alexander Ratelle */
     margin-bottom: 20px;
     width: 100%;
 }

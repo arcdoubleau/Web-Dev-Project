@@ -1,4 +1,5 @@
-h2{
+h2 {
+    /* Alexander Ratelle */
     padding-bottom: 10px;
 }
 #cars {
@@ -11,7 +12,8 @@ h2{
     padding-bottom: 2em;
 }
 
-#coupe, #sedan {
+#coupe,
+#sedan {
     /* Alexander Ratelle */
     flex: 1;
     padding-left: 3em;
@@ -28,14 +30,16 @@ h2{
     padding-top: 2em;
 }
 
-#buybutton{
+#buybutton {
+    /* Alexander Ratelle */
     background-color: #d54545;
-    color: white
+    color: white;
 }
-#buybutton:hover{
+#buybutton:hover {
+    /* Alexander Ratelle */
     background-color: #ce3939;
-    
 }
-table{
+table {
+    /* Alexander Ratelle */
     width: 100%;
 }
