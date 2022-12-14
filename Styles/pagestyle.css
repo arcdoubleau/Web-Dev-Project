@@ -24,7 +24,7 @@ a:link {
     color: white;
   }
 
-  a:visited {
+a:visited {
     /* Michael Arcaro 2034803*/ 
     color: blue;
   }
