@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/pagestyle.css" />
+    <link rel="stylesheet" href="../styles/forms.css" />
+    <link rel="stylesheet" href="../styles/menu.css" />
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <title>Post an Ad</title>
+    <meta name="description" content="Post and sell your car fast!" />
+    <meta
+        name="keywords"
+        content="sell, buy, cars, honda, toyota, trucks for sale, cars for sale"
+    />
+    <meta name="robots" content="follow" />
+</head>
+<body>
+    <section id="wrapper">
+        <header>
+            <!-- Alexander Ratelle -->
+            <a href="../home.html">
+                <img id="logo" src="../images/logo.png" alt=" " />
+            </a>
+
+            <button
+                id="upload-button"
+                onclick="window.location.href='form.html';"
+            >
+                <b>POST AD</b>
+            </button>
+        </header>
+        <section id="menu-bar">
+            <!-- Alexander Ratelle -->
+            <button
+                id="homebtn"
+                onclick="window.location.href = '../home.html';"
+            >
+                <i class="material-icons">home</i>
+            </button>
+
+            <section class="drop-down">
+                <button
+                    class="dropbtn"
+                    onclick="window.location.href = '../categories/Cars.html';"
+                >
+                    <i class="fa fa-car"></i> Cars
+                </button>
+                <div class="dropdown-content">
+                    <a href="../categories/Cars.html#sedan">Sedan</a>
+                    <a href="../categories/Cars.html#coupe">Coupe</a>
+                    <a href="../categories/Cars.html#hatchback"
+                        >Hatchback</a
+                    >
+                </div>
+            </section>
+            <section class="drop-down">
+                <button
+                    class="dropbtn"
+                    onclick="window.location.href = '../categories/Trucks.html';"
+                >
+                    <i class="fa fa-truck"></i> Trucks
+                </button>
+                <div class="dropdown-content">
+                    <a href="../categories/Trucks.html#pickup">Pickup</a>
+                    <a href="../categories/Trucks.html#suv">SUV</a>
+                </div>
+            </section>
+            <section class="clickable-button">
+                <button
+                    class="dropbtn"
+                    onclick="window.location.href = '../categories/Motorcycles.html';"
+                >
+                    <i class="fa fa-motorcycle"></i> Motorcycles
+                </button>
+            </section>
+            <section class="clickable-button">
+                <button
+                    class="dropbtn"
+                    onclick="window.location.href = '../categories/Boats.html';"
+                >
+                    <i style="font-size: small" class="material-icons"
+                        >&#xe532;</i
+                    >
+                    Boats
+                </button>
+            </section>
+            <section class="clickable-button">
+                <button
+                    class="dropbtn"
+                    onclick="window.location.href = '../categories/RV.html';"
+                >
+                    <i class="fa fa-child"></i> Recreational
+                </button>
+            </section>
+        </section>
+        <section id="title">
+            <!-- Edgar-Leon Desrochers-->
+            <h2><b> Thank you for trusting us with the sale of your Vehicle!</b></h2>
+        <p> We will notify you as soon as soon as we can for any updates regarding this post.</p>
+        </section>
+        <section id="submitted-page">
+            <section id="email">
+                <label for="lname" >
+                    e-mail for notifications</label
+                ><br />
+                <input
+                    type="text"
+                    id="pname"
+                    name="lname"
+                    value=""/>
+            </section>
+            <section id="submitted-buttons">
+                <section>
+                    <button onclick="window.location.href = '../home.html';">Return home</button>
+                </section>
+                <section>
+                    <button onclick="window.location.href = 'form.html';">Submit another ad</button>
+                </section>
+            </section>
+        </section>
+        <footer>
+            <!-- Alexander Ratelle -->
+            <section id="copyright">
+                <p>
+                    &copy; 2022 Copyright. All rights given away. <br />
+                    <br />
+                    Tested from my sonic account, click below:
+                    <!-- Michael Arcaro 2034803 -->
+                    <br />
+                    <br />
+                    <a
+                        href="https://sonic.dawsoncollege.qc.ca/~F22BXC2034803/Project/form.html"
+                    >
+                        Arcaro/2034803 5%</a
+                    >
+                    <br />
+                    <a
+                        href="https://sonic.dawsoncollege.qc.ca/~F22BXC2237517/Project/form.html"
+                    >
+                        Desrochers/2237517 90%
+                    </a>
+                    <br />
+                    <a
+                        href="https://sonic.dawsoncollege.qc.ca/~F22BXC2042875/Project/form.html"
+                    >
+                        Ratelle/2042875 5%</a
+                    >
+                </p>
+            </section>
+            <!-- Alexander Ratelle -->
+            <section id="contact">
+                <section id="questions">
+                    Have a question?
+                    <a href="../forms/contact.html"> Contact us </a>
+                </section>
+                <section id="social">
+                    Check us out on:<br />
+                    <i class="fa fa-instagram"></i>
+                    <a href="https://www.instagram.com" target="_blank"
+                        >Instagram</a
+                    ><br />
+                    <i class="fa fa-facebook-official"></i>
+                    <a href="https://www.facebook.com" target="_blank"
+                        >Facebook</a
+                    >
+                </section>
+            </section>
+        </footer>
+    
+</body>
+</html>
