@@ -128,7 +128,13 @@
                         </button>
                     </section>
                     <!--Edgar-Leon Desrochers -->
-                    <audio src="media/audio/Moonlight Sonata.mp3" autoplay controls> </audio>
+                    <audio id="my_audio" src="media/audio/Moonlight Sonata.mp3" autoplay controls muted> </audio>
+
+
+                    <script>
+                        var audio = document.getElementById("my_audio");
+                        audio.muted = false;
+                      </script>
                 </section>
             </section>
             <footer>
