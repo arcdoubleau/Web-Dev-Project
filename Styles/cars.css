@@ -29,7 +29,7 @@ h2{
 }
 
 table, th, td {
-    /*Michael Arcaro*/ 
+    /*Michael Arcaro 2034803*/ 
     border: 2px solid black;
     text-align: center;
     margin-right: 62px; 
@@ -37,7 +37,7 @@ table, th, td {
 }
 
 img {
-    /* Michael Arcaro */ 
+    /* Michael Arcaro 2034803 */ 
     width: 100%;
     height: 100%;
     object-fit: fill;
@@ -45,7 +45,7 @@ img {
 }
 
 tr:nth-child(even) {
-    /*Michael Arcaro*/
+    /*Michael Arcaro 2034803*/
     background-color: #f2f2f2;
 }
 
