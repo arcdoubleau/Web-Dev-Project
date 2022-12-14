@@ -22,21 +22,21 @@ a:active {
 a:link {
     /* Michael Arcaro 2034803 */
     color: white;
-  }
+}
 
 a:visited {
-    /* Michael Arcaro 2034803*/ 
-    color: blue;
-  }
+    /* Michael Arcaro 2034803*/
+    color: lightblue;
+}
 
 #wrapper {
-        /* Alexander Ratelle */
+    /* Alexander Ratelle */
     display: flex;
     flex-direction: column;
 }
 
 header {
-        /* Alexander Ratelle */
+    /* Alexander Ratelle */
     display: flex;
     justify-content: space-between;
     height: 20%;
@@ -79,13 +79,25 @@ header {
     height: 100%;
     flex: 7;
     background: hsla(0, 0%, 100%, 1);
-    background: linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
-    background: -moz-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
-    background: -webkit-linear-gradient(90deg, hsla(0, 0%, 100%, 1) 0%, hsla(42, 100%, 98%, 1) 50%);
+    background: linear-gradient(
+        90deg,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(42, 100%, 98%, 1) 50%
+    );
+    background: -moz-linear-gradient(
+        90deg,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(42, 100%, 98%, 1) 50%
+    );
+    background: -webkit-linear-gradient(
+        90deg,
+        hsla(0, 0%, 100%, 1) 0%,
+        hsla(42, 100%, 98%, 1) 50%
+    );
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFFCF5", GradientType=1 );
 }
 #page-content {
-        /* Alexander Ratelle */
+    /* Alexander Ratelle */
     display: flex;
     flex: 1;
     justify-content: center;
@@ -95,7 +107,7 @@ header {
     flex-direction: column;
     width: 100%;
     height: 600px;
-    position: relative;    
+    position: relative;
 }
 
 #banner {
@@ -108,12 +120,12 @@ header {
     margin-bottom: 60px;
 }
 
-.bottom-left{
-        /* Alexander Ratelle */
+.bottom-left {
+    /* Alexander Ratelle */
     position: absolute;
     left: 10px;
     bottom: 8px;
-    color:white;
+    color: white;
     border: 1px rgb(150, 149, 149) solid;
     padding: 10px;
     padding-left: 7px;
@@ -161,16 +173,18 @@ footer {
     flex: 3;
 }
 
-table, th, td {
-    /*Michael Arcaro 2034803*/ 
+table,
+th,
+td {
+    /*Michael Arcaro 2034803*/
     border: 2px solid black;
     text-align: center;
-    margin-right: 62px; 
+    margin-right: 62px;
     border-collapse: collapse;
 }
 
 img {
-    /* Michael Arcaro 2034803 */ 
+    /* Michael Arcaro 2034803 */
     width: 100%;
     height: 100%;
     object-fit: fill;
