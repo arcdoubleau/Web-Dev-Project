@@ -2,28 +2,28 @@
 <html lang="en">
     <head>
         <!-- Alexander Ratelle -->
-        <meta charset="UTF-8" >
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" href="../styles/pagestyle.css" >
-        <link rel="stylesheet" href="../styles/forms.css" >
-        <link rel="stylesheet" href="../styles/menu.css" >
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../styles/pagestyle.css" />
+        <link rel="stylesheet" href="../styles/forms.css" />
+        <link rel="stylesheet" href="../styles/menu.css" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        >
+        />
         <link
             href="https://fonts.googleapis.com/icon?family=Material+Icons"
             rel="stylesheet"
-        >
-        <link rel="icon" type="image/x-icon" href="../images/favicon.ico" >
+        />
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
         <title>Post an Ad</title>
-        <meta name="description" content="Post and sell your car fast!" >
+        <meta name="description" content="Post and sell your car fast!" />
         <meta
             name="keywords"
             content="sell, buy, cars, honda, toyota, trucks for sale, cars for sale"
-        >
-        <meta name="robots" content="follow">
+        />
+        <meta name="robots" content="follow" />
     </head>
     <body>
         <div id="wrapper">
@@ -40,64 +40,70 @@
                     <b>POST AD</b>
                 </button>
             </header>
-            <div id="menu-bar">
+            <section id="menu-bar">
                 <!-- Alexander Ratelle -->
                 <button
                     id="homebtn"
-                    onclick="window.location.href = 'home.html';"
+                    onclick="window.location.href = '../home.html';"
                 >
                     <i class="material-icons">home</i>
                 </button>
 
-                <div class="drop-down">
+                <section class="drop-down">
                     <button
                         class="dropbtn"
-                        onclick="window.location.href = 'categories/Cars.html';">
+                        onclick="window.location.href = '../categories/Cars.html';"
+                    >
                         <i class="fa fa-car"></i> Cars
                     </button>
                     <div class="dropdown-content">
-                        <a href="categories/Cars.html#sedan">Sedan</a>
-                        <a href="categories/Cars.html#coupe">Coupe</a>
-                        <a href="categories/Cars.html#hatchback"
-                            >Hatchback</a>
+                        <a href="../categories/Cars.html#sedan">Sedan</a>
+                        <a href="../categories/Cars.html#coupe">Coupe</a>
+                        <a href="../categories/Cars.html#hatchback"
+                            >Hatchback</a
+                        >
                     </div>
-                </div>
-                <div class="drop-down">
+                </section>
+                <section class="drop-down">
                     <button
                         class="dropbtn"
-                        onclick="window.location.href = 'categories/Trucks.html';"
+                        onclick="window.location.href = '../categories/Trucks.html';"
                     >
                         <i class="fa fa-truck"></i> Trucks
                     </button>
                     <div class="dropdown-content">
-                        <a href="categories/Trucks.html#pickup">Pickup</a>
-                        <a href="categories/Trucks.html#suv">SUV</a>
+                        <a href="../categories/Trucks.html#pickup">Pickup</a>
+                        <a href="../categories/Trucks.html#suv">SUV</a>
                     </div>
-                </div>
-                <div class="clickable-button">
+                </section>
+                <section class="clickable-button">
                     <button
                         class="dropbtn"
-                        onclick="window.location.href = 'categories/Motorcycles.html';">
+                        onclick="window.location.href = '../categories/Motorcycles.html';"
+                    >
                         <i class="fa fa-motorcycle"></i> Motorcycles
                     </button>
-                </div>
-                <div class="clickable-button">
+                </section>
+                <section class="clickable-button">
                     <button
                         class="dropbtn"
-                        onclick="window.location.href = 'categories/Boats.html';">
+                        onclick="window.location.href = '../categories/Boats.html';"
+                    >
                         <i style="font-size: small" class="material-icons"
-                            >&#xe532;</i>
+                            >&#xe532;</i
+                        >
                         Boats
                     </button>
-                </div>
-                <div class="clickable-button">
+                </section>
+                <section class="clickable-button">
                     <button
                         class="dropbtn"
-                        onclick="window.location.href = 'categories/RV.html';">
+                        onclick="window.location.href = '../categories/RV.html';"
+                    >
                         <i class="fa fa-child"></i> Recreational
                     </button>
-                </div>
-            </div>
+                </section>
+            </section>
             <section id="content">
                 <section id="title">
                     <b> Post an Ad for Free</b>
@@ -115,18 +121,33 @@
                     <label for="lname"> Vehicle Brand </label><br />
                     <input type="text" id="lname" name="lname" value="" /><br />
                     <label for="fname"> Vehicle Model</label><br />
-                    <input type="text" id="fname" name="fname" value="" /><br />
+                    <input
+                        type="text"
+                        id="fname"
+                        name="fname"
+                        value=""
+                    /><br />
                     <label for="lname"> Vehicle Year</label><br />
                     <input type="text" id="lname" name="lname" value="" />
                     <br />
 
                     <label for="fname"> Vehicle Millage</label><br />
-                    <input type="text" id="fname" name="fname" value="" /><br />
+                    <input
+                        type="text"
+                        id="fname"
+                        name="fname"
+                        value=""
+                    /><br />
                     <label for="lname">
                         Vehicle Identification Number (VIN)</label
                     >
                     <br />
-                    <input type="text" id="lname" name="lname" value="" /><br />
+                    <input
+                        type="text"
+                        id="lname"
+                        name="lname"
+                        value=""
+                    /><br />
 
                     <input type="submit" value="Submit" />
                 </form>
