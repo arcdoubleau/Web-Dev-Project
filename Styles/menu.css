@@ -28,9 +28,11 @@
 .dropdown-content a:hover {
     /* Alexander Ratelle */
     background-color: rgb(234, 234, 234);
+    text-decoration: none;
 }
 
 .drop-down:hover .dropdown-content {
+    /* Alexander Ratelle */
     display: block;
 }
 .drop-down:hover .dropbtn {
@@ -39,12 +41,13 @@
 }
 
 .dropdown-content {
+    /* Alexander Ratelle */
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: rgb(255, 252, 245);
     min-width: 160px;
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2); /* Alexander Ratelle */
-    text-decoration: none; /* Alexander Ratelle */
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2); 
+    text-decoration: none; 
 }
 
 .dropdown-content a {
@@ -67,10 +70,4 @@
     /* Alexander Ratelle */
     margin: 4px;
     background-color: #e1e1e1;
-}
-.sticky 
-{
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
