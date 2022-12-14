@@ -28,27 +28,6 @@ h2{
     padding-top: 2em;
 }
 
-table, th, td {
-    /*Michael Arcaro 2034803*/ 
-    border: 2px solid black;
-    text-align: center;
-    margin-right: 62px; 
-    border-collapse: collapse;
-}
-
-img {
-    /* Michael Arcaro 2034803 */ 
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-    padding: 5px;
-}
-
-tr:nth-child(even) {
-    /*Michael Arcaro 2034803*/
-    background-color: #f2f2f2;
-}
-
 #buybutton{
     background-color: #d54545;
     color: white
