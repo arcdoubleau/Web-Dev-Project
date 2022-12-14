@@ -30,12 +30,12 @@ h2 {
     padding-top: 2em;
 }
 
-#buybutton {
+.buybutton {
     /* Alexander Ratelle */
     background-color: #d54545;
     color: white;
 }
-#buybutton:hover {
+.buybutton:hover {
     /* Alexander Ratelle */
     background-color: #ce3939;
 }
